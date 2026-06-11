@@ -1,6 +1,6 @@
 cask "cctv" do
-  version "0.1.1"
-  sha256 "6735c4ecd804d34c7b2d29dfdad81febc140dc359b3ddfe2a06ee1a6df5a45ec"
+  version "0.1.2"
+  sha256 "d6fba35876c8e2f5f790b475807cb301d2184bdbedf356a05c19080eb683e473"
 
   url "https://github.com/manelrv/CCTV/releases/download/v#{version}/CCTV_#{version}_universal.dmg"
   name "CCTV"
