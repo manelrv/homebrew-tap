@@ -7,7 +7,8 @@ cask "cctv" do
   desc "See which Claude Code agent needs you, from the macOS menu bar"
   homepage "https://github.com/manelrv/CCTV"
 
-  # The app is not yet signed/notarized. Install with --no-quarantine, or
+  # The app is not yet signed/notarized. After install, clear the quarantine
+  # attribute (`xattr -dr com.apple.quarantine /Applications/CCTV.app`) or
   # right-click → Open on first launch, to get past Gatekeeper.
   app "CCTV.app"
 
